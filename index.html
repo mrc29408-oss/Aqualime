@@ -74,6 +74,11 @@
       padding: 20px 0;
       text-align: center;
     }
+
+    .highlight-line{
+      color: red;
+      background-color: yellow;
+    }
   </style>
 </head>
 
@@ -231,6 +236,14 @@
       <h2>
         <center><b>Order Now</b></center>
       </h2>
+
+      <center>
+        <b>
+      <p class="highlight-line">
+        One Bottle is ₹ 15.
+      </p>
+      </b>
+      </center>
       <form name="order" method="POST" data-netlify="true" action="https://formspree.io/f/xdalzovj">
 
         <input type="hidden" name="form-name" value="order">
